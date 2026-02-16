@@ -1,5 +1,5 @@
-const API_BASE_URL = '/items';   
-const TAGS_API = '/tags';  
+const API_BASE_URL = `${window.location.origin}/items`;
+const TAGS_API = `${window.location.origin}/tags`; 
 const DEFAULT_IMAGE = 'https://tse1.mm.bing.net/th/id/OIP.xPzKTaW3TqN98rYqcXI3VQHaE8?pid=Api&P=0&h=180';
  
 let currentFilterTagId = null;  
